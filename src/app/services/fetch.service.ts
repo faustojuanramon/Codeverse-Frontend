@@ -12,7 +12,7 @@ import { User } from 'firebase/auth';
 export class FetchService {
 	constructor(private router: Router) {}
 
-	urlBase = 'https://codeverse-backend.vercel.app/';
+	urlBase = 'https://codeverse-backend-5r4pfy3niq-uc.a.run.app/';
 
 	makeRequest = async (
 		url: string,
